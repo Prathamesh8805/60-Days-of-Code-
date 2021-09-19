@@ -1,0 +1,24 @@
+input{
+    display: block;
+}
+.container{
+    margin: 34px 23px;
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+input[type='text']{
+    padding: 23px;
+    border: 3px solid red;
+}
+a[target]{
+    font-size: 35px;
+    color: royalblue;
+}
+li:nth-child(3){
+    color: salmon;
+    font-size: 25px;
+}
+li:nth-child(2n+1){
+    color: slateblue;
+}
