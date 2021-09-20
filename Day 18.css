@@ -1,0 +1,23 @@
+.box{
+    background-color: greenyellow;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: Prathamesh;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-delay:2s ;
+    
+}
+.container{
+    background-color: hotpink;
+}
+@keyframes Prathamesh {
+    from{
+        width: 400px;
+    }
+    to{
+        width: 800px;
+    }
+}
